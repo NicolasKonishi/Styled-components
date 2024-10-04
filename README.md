@@ -48,10 +48,4 @@ Para a navegação, utilizei o `useNavigate`, um hook nativo do React.
 
 ---
 
-## 📝 Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ por Nicolas Konishi
+Feito por Nicolas Konishi
