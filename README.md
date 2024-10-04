@@ -1,8 +1,6 @@
 <h1 align="center">DIO Clone</h1>
 
-<p align="center">
-  Projeto desenvolvido durante a formação React Developer, com o objetivo de demonstrar como implementar a navegação em uma aplicação React utilizando o React-Router-Dom. <br/>
-</p>
+
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
