@@ -25,11 +25,11 @@
 </p>
 
 <p align="center">
-  <img alt="DIO Clone" src="assets/user-home.png" width="100%">
+  <img alt="DIO Clone" src="assets/Usuario.png" width="100%">
 </p>
 
 <p align="center">
-  <img alt="DIO Clone" src=".github/cadastro.png" width="100%">
+  <img alt="DIO Clone" src="assets/Cadastro" width="100%">
 </p>
 
 ---
