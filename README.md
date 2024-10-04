@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <img alt="DIO Clone" src="assets/Usuario.png" width="100%">
+  <img alt="DIO Clone" src="assets/Usuário home.png" width="100%">
 </p>
 
 <p align="center">
