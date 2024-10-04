@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <img alt="DIO Clone" src="assets/Cadastro" width="100%">
+  <img alt="DIO Clone" src="assets/Cadastro.png" width="100%">
 </p>
 
 ---
