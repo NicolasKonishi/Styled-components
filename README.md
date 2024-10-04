@@ -17,15 +17,15 @@
 </p>
 <br>
 <p align="center">
-  <img alt="DIO Clone" src=".github/home.png" width="100%">
+  <img alt="DIO Clone" src="assets/Home.png" width="100%">
 </p>
 
 <p align="center">
-  <img alt="DIO Clone" src=".github/login.png" width="100%">
+  <img alt="DIO Clone" src="assets/Login.png" width="100%">
 </p>
 
 <p align="center">
-  <img alt="DIO Clone" src=".github/user-home.png" width="100%">
+  <img alt="DIO Clone" src="assets/user-home.png" width="100%">
 </p>
 
 <p align="center">
