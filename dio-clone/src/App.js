@@ -6,7 +6,6 @@ import {
 
 import { Home } from './pages/Home';
 import { Login } from './pages/Login';
-
 import { UserFeed } from './pages/UserFeed';
 
 
@@ -15,7 +14,7 @@ function App() {
    <Router>
      <Routes>
      <Route path='/' element={<Home />} />
-     <Route path='/login' element={<Login />} />
+     <Route path='/Login' element={<Login />} />
      <Route path='/userfeed' element={<UserFeed />} />
      </Routes>
    </Router>

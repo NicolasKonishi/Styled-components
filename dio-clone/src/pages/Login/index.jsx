@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {MdEmail, MdLock} from 'react-icons/md';
 import{Button} from "../../components/Button";
 import{Header} from "../../components/Header";
@@ -8,6 +8,10 @@ import{Input} from "../../components/Input";
 import {Column, Container,CreateText,ForgotText,Row,SubtitleLogin,Title,TitleLogin,Wrapper} from "./styles";
 
 const Login = () => {
+  const navigate = useNavigate();
+  const handleClickHome = () => {
+    navigate('/userfeed');
+  }
     return (<>
         <Header />
       <Container>
@@ -24,7 +28,7 @@ const Login = () => {
            <form>
               <Input placeholder='E-mail' leftIcon={<MdEmail/>}/>
               <Input placeholder='Password' type='password' leftIcon={<MdLock/>}/>
-              <Button title='Entrar' variant="secondary" type='button'/>
+              <Button title='Entrar' variant="secondary" onClick={handleClickHome} type='button'/>
            </form>
            <Row>
             <ForgotText>Esqueci minha senha</ForgotText>

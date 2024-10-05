@@ -39,7 +39,7 @@ export const UserInfo = styled.div`
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 16px;
         color: #ffffff;
     }
@@ -68,7 +68,7 @@ export const PostInfo = styled.div`
         font-family: 'Open Sans', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 16px;
         color: #ffffff; 
         width: 90%;
