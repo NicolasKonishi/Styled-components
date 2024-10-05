@@ -4,32 +4,21 @@
   Projeto desenvolvido durante a formação React Developer, com o objetivo de demonstrar como implementar a navegação em uma aplicação React utilizando o React-Router-Dom. <br/>
 </p>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-aprendizado">Aprendizado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
-</p>
-
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
 <br>
 <p align="center">
-  <img alt="DIO Clone" src=".github/home.png" width="100%">
+  <img alt="DIO Clone" src="assets/Home.png" width="100%">
 </p>
 
 <p align="center">
-  <img alt="DIO Clone" src=".github/login.png" width="100%">
+  <img alt="DIO Clone" src="assets/Login.png" width="100%">
 </p>
 
 <p align="center">
-  <img alt="DIO Clone" src=".github/user-home.png" width="100%">
+  <img alt="DIO Clone" src="assets/Usuário home.png" width="100%">
 </p>
 
 <p align="center">
-  <img alt="DIO Clone" src=".github/cadastro.png" width="100%">
+  <img alt="DIO Clone" src="assets/Cadastro.png" width="100%">
 </p>
 
 ---
@@ -59,10 +48,4 @@ Para a navegação, utilizei o `useNavigate`, um hook nativo do React.
 
 ---
 
-## 📝 Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ por Nicolas Konishi
+Feito por Nicolas Konishi
