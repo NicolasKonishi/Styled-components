@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 const Teste = () => {
   const [name, setName] = useState("Nicolas");
@@ -7,8 +7,12 @@ const Teste = () => {
     setName((prev) => (prev === "Nicolas" ? "Jao" : "Nicolas"));
   };
 
+  const calculo = useMemo(() => {    
+    return 10*233
+}, []);
+
   useEffect(() => {
-    alert("renderizei");
+    handleChangeName();
   }, []);
 
   return (
