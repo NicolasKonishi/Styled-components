@@ -4,13 +4,13 @@ const Teste = () => {
   const [age, setAge] = useState(20);
   const [name, setName] = useState("Nicolas");
 
-  const handleChangeName = () => {
+  const handleChangeName = useCallback(() => {
     setName((prev) => (prev === "Nicolas"? "Paulo" : "Nicolas"));
-  };
+  },[]);
 
-  const handleChangeAge= () => {
+  const handleChangeAge= useCallback(() => {
     setAge((prev) => (prev === 20? 21 : 20));
-  };
+  }, []);
 
   const calculo = useMemo(() => {    
     console.log("idade", age)
