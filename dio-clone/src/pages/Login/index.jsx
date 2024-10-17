@@ -3,7 +3,7 @@ import {MdEmail, MdLock} from 'react-icons/md';
 import{Button} from "../../components/Button";
 import{Header} from "../../components/Header";
 import{Input} from "../../components/Input";
-
+import {api} from '../../Services/api';
 
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
@@ -20,14 +20,25 @@ const schema = yup.object({
 const Login = () => {
   const navigate = useNavigate();
 
-  const { handleSubmit, control, formState: { errors, isValid } } = useForm({
+  const { handleSubmit, control, formState: { errors,  } } = useForm({
     resolver: yupResolver(schema),
     mode: "onChange",
   });
 
-  console.log(isValid, errors);
+  console.log(errors);
 
-  const onSubmit = data => console.log(data);
+  const onSubmit = async formData => {
+    try{
+      const {data} = await api.get('users?email=${formData.email}&senha=${formData.password}');
+      if(data.length ===1){
+
+      }else{
+        alert("email ou senha invalidodio")
+      }
+    }catch{
+      alert('errorrr. tente');
+    }
+  };  
 
   // const handleClickHome = () => {
   //   navigate('/userfeed');
